@@ -25,8 +25,6 @@ os.chdir(BASE_DIR)
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 os.environ["TORCH_HOME"] = r"E:\SAM_data\weights"
 
-
-
 try:
     import exifread
     HAS_EXIF = True

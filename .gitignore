@@ -24,6 +24,7 @@ Drone-SAM2-Farmland Identification/
 !assets/*.png
 !assets/*.jpg
 !assets/*.gif
+!assets/*.mp4
 
 # ==================== Python 运行环境垃圾 ====================
 __pycache__/
