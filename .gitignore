@@ -1,0 +1,42 @@
+# 权重文件
+weights/
+
+# 原始视频
+data/
+
+# 手动标注中间产物
+farm_masks/
+
+# 抽帧文件
+frames/
+
+# SAM2识别后的输出文件
+mask_frame/
+
+
+# ==================== 自动生成的结果文件 ====================
+*.json
+*.mp4
+*.png
+*.jpg
+!assets/*.png
+!assets/*.jpg
+!assets/*.gif
+
+# ==================== Python 运行环境垃圾 ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+
+# SAM2 源码自带的缓存
+sam2/__pycache__/
+sam2/*.pyc
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+# 核心视觉与计算
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 数据处理与展示
+pandas>=2.0.0
+streamlit>=1.28.0
+
+# 无人机底层数据解析
+exifread>=3.0.0
+
+# 注意：sam2 本身不是pip包，在README中按指导git clone官方仓库
