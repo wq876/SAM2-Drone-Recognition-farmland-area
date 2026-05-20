@@ -7,7 +7,7 @@
 ## 🎥 效果演示
 
 ### 左右分屏对比（原图 vs SAM2 追踪）
-<video src="assets/demo_comparison.gif" controls width="100%"></video>
+![左右分屏对比](assets/demo_comparison.gif)
 
 ### 分割结果示例
 ![分割结果](assets/result_demo1.jpg)
