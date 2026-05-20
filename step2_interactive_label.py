@@ -5,18 +5,17 @@ OpenCV + SAM2 交互式农田标注：点击加点、预览分割、回车确认
 import json, os, sys
 from contextlib import nullcontext
 from pathlib import Path
-
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-os.environ["TORCH_HOME"] = r"E:\SAM_data\weights"
-
-import cv2
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
 import numpy as np
 import torch
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["TORCH_HOME"] = r"E:\SAM_data\weights"
+import cv2
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
+from config import BASE_DIR
+os.chdir(BASE_DIR)
 from config import (
     FIRST_FRAME, WEIGHT_PATH, MODEL_CFG, MASK_DIR,
     LOCS_PATH, OVERLAY_PATH,

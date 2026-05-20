@@ -4,15 +4,16 @@ Step3: 将多块手动标注的农田 mask 合并为一张联合掩码
 """
 import json
 import os
-from pathlib import Path
-
 import cv2
 import numpy as np
 
-MASK_DIR = Path(r"E:/SAM_data/farm_masks")
-OUT_MASK_PATH = Path(r"E:/SAM_data/farm_masks/farm_mask_union.png")
-OUT_LOCS_PATH = Path(r"E:/SAM_data/locs_union.json")
-FIRST_FRAME_PATH = Path(r"E:/SAM_data/frames/frame_0001.jpg")
+from config import BASE_DIR
+os.chdir(BASE_DIR)
+from config import MASK_DIR, UNION_MASK_PATH, UNION_LOCS_PATH, FIRST_FRAME
+
+OUT_MASK_PATH = UNION_MASK_PATH          
+OUT_LOCS_PATH = UNION_LOCS_PATH          
+FIRST_FRAME_PATH = FIRST_FRAME
 
 
 def main():

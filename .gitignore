@@ -11,7 +11,7 @@ farm_masks/
 frames/
 
 # SAM2识别后的输出文件
-mask_frame/
+masks_frame/
 
 
 # ==================== 自动生成的结果文件 ====================

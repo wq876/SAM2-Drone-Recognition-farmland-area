@@ -73,7 +73,7 @@ def main():
         
         # 🎨 使用高亮文字标签，彻底解决看不清的问题
         put_highlight_text(combined, "ORIGINAL FRAME", (20, 40), 1.0)
-        put_highlight_text(combined, "SAM2 + VLM TRACKING", (w_l + 20, 40), 1.0)
+        put_highlight_text(combined, "SAM2 TRACKING SEGMENTATION", (w_l + 20, 40), 1.0)
         
         # 帧复用
         for _ in range(FRAME_REPEAT):

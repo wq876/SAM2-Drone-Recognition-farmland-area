@@ -4,6 +4,8 @@
 
 import os
 import cv2
+from config import BASE_DIR
+os.chdir(BASE_DIR)
 from config import VIDEO_PATH, FRAMES_DIR, OUTPUT_FPS
 
 
