@@ -13,6 +13,8 @@ frames/
 # SAM2识别后的输出文件
 masks_frame/
 
+#其他文件
+Drone-SAM2-Farmland Identification/
 
 # ==================== 自动生成的结果文件 ====================
 *.json
