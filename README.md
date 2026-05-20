@@ -7,7 +7,7 @@
 ## 🎥 效果演示
 
 ### 左右分屏对比（原图 vs SAM2 追踪）
-<video src="assets/demo_comparison.mp4" controls width="100%"></video>
+<video src="assets/demo_comparison.gif" controls width="100%"></video>
 
 ### 分割结果示例
 ![分割结果](assets/result_demo1.jpg)
@@ -229,3 +229,8 @@ streamlit run step7_dashboard.py
 ## Tech Stack
 
 `Python` · `PyTorch` · `Meta SAM2` · `OpenCV` · `Streamlit` · `XMP GSD 物理公式`
+
+
+## 📄 数据来源声明
+
+本项目演示视频来源于 [追影觅光/【无人机】大疆Air2S | 人烟渐稀的村庄和广袤的平原农田 | 航拍 | Vlog | 鸟瞰](https://www.bilibili.com/video/BV1Xv4y1K7Tt/?spm_id_from=333.788.top_right_bar_window_history.content.click&vd_source=d27b230d003e9e7676376da3584a539c)，仅用于学术研究与技术展示，非商业用途。如涉及侵权请联系删除。
